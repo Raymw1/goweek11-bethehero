@@ -1,0 +1,26 @@
+{
+  "name": "bethehero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Rayan Wilbert",
+  "license": "MIT",
+  "dependencies": {
+    "@vscode/sqlite3": "^5.0.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "knex": "^1.0.5",
+    "morgan": "^1.10.0",
+    "require-dir": "^1.2.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
