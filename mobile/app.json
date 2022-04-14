@@ -5,6 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "extra": {
+      "apiURL": "http://192.168.1.106:3333"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
